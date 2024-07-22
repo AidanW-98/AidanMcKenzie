@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta/dist/vanta.fog.min.js"></script>
+</head>
+
+<body>
+    <div id="vanta-bg" class="hero">
+        <h1>{{ site.title }}</h1>
+    </div>
+    <nav>
+        <ul>
+            {% for section in site.sections %}
+            <li><a href="{{ section.url | relative_url }}">{{ section.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    <footer>
+        <ul>
+            <li><a href="{{ site.social_links.goodreads }}">GoodReads</a></li>
+            <li><a href="{{ site.social_links.linkedin }}">LinkedIn</a></li>
+            <li><a href="{{ site.social_links.soundcloud }}">SoundCloud</a></li>
+        </ul>
+    </footer>
+    <script>
+        VANTA.FOG({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            highlightColor: 0x20d715,
+            midtoneColor: 0x216feb,
+            lowlightColor: 0xb1750c,
+            baseColor: 0xffffff,
+            // highlightColor: "{{ site.vanta_colors.highlight_color }}",
+            // midtoneColor: "{{ site.vanta_colors.midtone_color }}",
+            // lowlightColor: "{{ site.vanta_colors.lowlight_color }}",
+            // baseColor: "{{ site.vanta_colors.base_color }}",
+            backgroundAlpha: 0.0
+        })
+    </script>
+</body>
+
+</html>
