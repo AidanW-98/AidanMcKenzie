@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.fog.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div id="vanta-bg"></div>
+        <nav>
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                {% for section in site.sections %}
+                <li><a href="{{ section.url | relative_url }}">{{ section.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <div class="header-title">
+            <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        {{ content }}
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="{{ site.social_links.goodreads }}">GoodReads</a></li>
+            <li><a href="{{ site.social_links.linkedin }}">LinkedIn</a></li>
+            <li><a href="{{ site.social_links.soundcloud }}">SoundCloud</a></li>
+        </ul>
+    </footer>
+
+    <!-- Vanta.js initialization -->
+    <script>
+        VANTA.FOG({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 50.00,
+            minWidth: 200.00,
+            highlightColor: 0x20d715,
+            midtoneColor: 0x216feb,
+            lowlightColor: 0xb1750c,
+            baseColor: 0xffffff,
+            backgroundAlpha: 0.0,
+            blurFactor: 0.6,
+            zoom: 0.3
+        })
+    </script>
+</body>
+
+</html>

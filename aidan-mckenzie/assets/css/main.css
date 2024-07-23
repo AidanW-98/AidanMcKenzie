@@ -1,0 +1,120 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Common styles for header, nav, and title */
+header {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent background */
+    backdrop-filter: blur(10px);
+    /* Blurring the background for a modern effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.header-title a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header-title a:hover {
+    color: #ffdd57;
+    /* Highlight color on hover */
+}
+
+
+#vanta-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    /* Ensure the Vanta effect is behind the header content */
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+    /* Increased font size */
+    padding: 10px 15px;
+    /* Padding for modern look */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition */
+    border-radius: 5px;
+    /* Rounded corners for modern look */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Subtle background change on hover */
+    color: #ffdd57;
+    /* Highlight color on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #222;
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer ul li a:hover {
+    color: #ffdd57;
+}

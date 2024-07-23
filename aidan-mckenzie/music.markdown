@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: base
 title: Music
 permalink: /music/
 ---
 
-Here will be music
+Here will be music.

@@ -26,7 +26,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
@@ -43,9 +42,9 @@ sections:
     url: /contact
 
 social_links:
-  goodreads: "https://www.goodreads.com/yourprofile"
-  linkedin: "https://www.linkedin.com/in/yourprofile"
-  soundcloud: "https://soundcloud.com/yourprofile"
+  goodreads: "https://www.goodreads.com/user/show/162222866-aidan-w"
+  linkedin: "https://www.linkedin.com/in/aidanwilliamsonuk/"
+  soundcloud: "https://soundcloud.com/aidsmckenzie"
 
 # Vanta.js fog effect colors
 vanta_colors:
