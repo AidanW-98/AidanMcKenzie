@@ -2,34 +2,23 @@
 layout: base
 ---
 
-<!-- LightGallery CSS -->
 <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css" rel="stylesheet">
 
-<!-- Page Content -->
 <div class="gallery-introduction">
     {{ content }}
 </div>
 
-<!-- LightGallery Container -->
 <div id="lightgallery">
-    <!-- Persistent Test Image -->
-    <a class="item" href="/assets/imgs/gallery/24A3808.jpg" data-lg-size="1600-2400">
-        <img src="/assets/imgs/gallery/24A3808.jpg" class="img-thumbnail" />
+    {% assign images = site.static_files %}
+    {% for image in images %}
+    {% if image.path contains '/assets/imgs/gallery/' %}
+    <a class="item" href="{{ image.path | relative_url }}" data-lg-size="1600-2400">
+        <img src="{{ image.path | relative_url }}" class="img-thumbnail" />
     </a>
-
-    <!-- Debugging: Print out all image paths to verify -->
-    <ul>
-        {% assign images = site.static_files | where: "path", "/assets/imgs/gallery/" %}
-        {% for image in images %}
-        <li>{{ image.path | relative_url }}</li> <!-- Print image paths for debugging -->
-        <a class="item" href="{{ image.path | relative_url }}" data-lg-size="1600-2400">
-            <img src="{{ image.path | relative_url }}" class="img-thumbnail" />
-        </a>
-        {% endfor %}
-    </ul>
+    {% endif %}
+    {% endfor %}
 </div>
 
-<!-- LightGallery JS -->
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js"></script>
 
 <script>
