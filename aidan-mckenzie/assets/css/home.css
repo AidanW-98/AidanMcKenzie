@@ -1,0 +1,61 @@
+@import url('main.css');
+
+body,
+html {
+    overflow: hidden;
+}
+
+.hero {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.hero .subtitle {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    opacity: 0.8;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/imgs/Picture1.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+
+#vanta-bg {
+    z-index: 0;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 10px;
+}
+
+footer ul {
+    display: flex;
+}
