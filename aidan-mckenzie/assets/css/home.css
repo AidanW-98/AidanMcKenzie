@@ -18,12 +18,14 @@ html {
 }
 
 .hero h1 {
+    color: white;
     font-size: 4rem;
     margin: 0;
     padding: 0;
 }
 
 .hero .subtitle {
+    color: white;
     font-size: 1.5rem;
     margin-top: 1rem;
     opacity: 0.8;
@@ -44,22 +46,16 @@ html {
     z-index: -2;
 }
 
+#vanta-bg {
+    z-index: 0;
+}
+
 
 footer {
     position: absolute;
     bottom: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 footer ul {
     display: flex;
-    gap: 15px;
-}
-
-footer ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
 }

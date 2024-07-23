@@ -1,43 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto:wght@400;700&family=Lora:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
 body,
 html {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fbf6ed;
 }
 
-/* Common styles for header, nav, and title */
+main {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1300px;
+    border-radius: 8px;
+    background-color: #fbf6ed;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
 header {
     position: relative;
     text-align: center;
-    padding: 0;
     background: rgba(0, 0, 0, 0.7);
-    /* Semi-transparent background */
     backdrop-filter: blur(10px);
-    /* Blurring the background for a modern effect */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow for depth */
     width: 100%;
     box-sizing: border-box;
 }
 
 .header-title {
-    font-size: 2.5em;
-    font-weight: bold;
-    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 20px;
+    padding-bottom: 10px;
+    color: white;
 }
 
 .header-title a {
-    color: white;
+    color: inherit;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .header-title a:hover {
     color: #ffdd57;
-    /* Highlight color on hover */
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    /* Smaller than previous for better hierarchy */
+}
+
+h2 {
+    font-size: 1.6em;
+    /* Adjusted size */
+}
+
+h3 {
+    font-size: 1.45em;
+    /* Adjusted size */
+}
+
+h4 {
+    font-size: 1.3em;
+    /* Adjusted size */
+}
+
+h5 {
+    font-size: 1.2em;
+    /* Adjusted size */
+}
+
+h6 {
+    font-size: 1em;
+    /* Adjusted size */
+}
 
 #vanta-bg {
     position: absolute;
@@ -46,8 +99,8 @@ header {
     width: 100%;
     height: 100%;
     z-index: -2;
-    /* Ensure the Vanta effect is behind the header content */
 }
+
 
 nav {
     position: absolute;
@@ -58,10 +111,9 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
     padding: 0;
     margin: 0;
 }
@@ -71,48 +123,68 @@ nav ul li {
 }
 
 nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    /* Different font for navigation */
+    font-weight: 400;
+    /* Regular weight */
     color: white;
     text-decoration: none;
-    font-size: 1.4em;
-    /* Increased font size */
+    font-size: 1.2em;
     padding: 10px 15px;
-    /* Padding for modern look */
     transition: background-color 0.3s, color 0.3s;
-    /* Smooth transition */
     border-radius: 5px;
-    /* Rounded corners for modern look */
 }
 
 nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    /* Subtle background change on hover */
     color: #ffdd57;
-    /* Highlight color on hover */
 }
 
-/* Footer styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.content {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    /* White background for content area */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
 footer {
     text-align: center;
     padding: 20px 0;
     background: #222;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 footer ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
 }
 
 footer ul li {
     display: inline;
-    margin: 0 10px;
 }
 
 footer ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    /* Different font for footer links */
 }
 
 footer ul li a:hover {

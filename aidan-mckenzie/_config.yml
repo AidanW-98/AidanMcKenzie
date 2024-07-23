@@ -42,9 +42,18 @@ sections:
     url: /contact
 
 social_links:
+  email: "mailto:aidans_williamson@live.co.uk"
   goodreads: "https://www.goodreads.com/user/show/162222866-aidan-w"
   linkedin: "https://www.linkedin.com/in/aidanwilliamsonuk/"
+  mixcloud: "https://www.mixcloud.com/aidsmckenzie/"
   soundcloud: "https://soundcloud.com/aidsmckenzie"
+
+additional_social_links:
+  dj_facebook: "https://www.facebook.com/AidsMcKenzie/"
+  github_repo: "https://github.com/AidanW-98/AidanMcKenzie"
+  instagram: "https://www.instagram.com/aidsmckenzie/"
+  personal_facebook: "https://www.facebook.com/mcgaids/"
+  profile_spotify: "https://open.spotify.com/user/21bnsdimwciz6jid5sy3zdi3q?si=8f90e602566d45eb"  
 
 # Vanta.js fog effect colors
 vanta_colors:
