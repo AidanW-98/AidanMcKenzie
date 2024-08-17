@@ -32,8 +32,8 @@ plugins:
 sections:
   - name: About
     url: /about
-  - name: DJ Memories
-    url: /dj-memories
+  - name: Gallery
+    url: /gallery
   - name: Music
     url: /music
   - name: Ramblings
