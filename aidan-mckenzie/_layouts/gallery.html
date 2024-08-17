@@ -1,0 +1,54 @@
+---
+layout: base
+---
+
+<link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css" rel="stylesheet">
+
+<div class="gallery-introduction">
+    {{ content }}
+</div>
+
+<div id="lightgallery">
+    {% assign images = site.static_files %}
+    {% for image in images %}
+    {% if image.path contains '/assets/imgs/gallery/' %}
+    <a class="item" href="{{ image.path | relative_url }}" data-lg-size="1600-2400">
+        <img src="{{ image.path | relative_url }}" class="img-thumbnail" />
+    </a>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        lightGallery(document.getElementById('lightgallery'), {
+            thumbnail: true,
+            selector: '.item',
+            download: false
+        });
+    });
+</script>
+
+<!-- Optionally, add custom styles -->
+<style>
+    .gallery-introduction {
+        margin-bottom: 20px;
+        /* Adjust spacing as needed */
+    }
+
+    #lightgallery .item {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .img-thumbnail {
+        width: 150px;
+        /* Adjust the thumbnail size */
+        height: auto;
+        cursor: pointer;
+    }
+
+    /* Add any other custom styles you want */
+</style>
