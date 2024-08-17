@@ -9,15 +9,28 @@ layout: base
 </div>
 
 <div id="lightgallery">
-    {% assign images = site.static_files %}
-    {% for image in images %}
-    {% if image.path contains '/assets/imgs/gallery/' %}
-    <a class="item" href="{{ image.path | relative_url }}" data-lg-size="1600-2400">
-        <img src="{{ image.path | relative_url }}" class="img-thumbnail" />
-    </a>
-    {% endif %}
+    {% for image in site.gallery %}
+        <a class="item" href="{{ image.image_path | relative_url }}" data-sub-html=".caption">
+            <img src="{{ image.image_path | relative_url }}" class="img-thumbnail" />
+            <!-- Caption content here -->
+            <div class="caption">
+                <h4>{{ image.title }}</h4>
+                <p>{{ image.date_taken }}</p>
+            </div>
+        </a>
     {% endfor %}
 </div>
+
+
+
+
+
+<script>
+    lightGallery(document.getElementById('lightgallery'), {
+        subHtmlSelectorRelative: true
+    });
+</script>
+
 
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js"></script>
 
@@ -26,10 +39,35 @@ layout: base
         lightGallery(document.getElementById('lightgallery'), {
             thumbnail: true,
             selector: '.item',
-            download: false
+            download: false,
+            appendSubHtmlTo: '.lg-item',
+            subHtmlSelectorRelative: true,
+            getCaptionFromTitleOrAlt: false,
         });
     });
 </script>
+
+<!-- Optionally, add custom styles -->
+<style>
+    .gallery-introduction {
+        margin-bottom: 20px;
+        /* Adjust spacing as needed */
+    }
+
+    #lightgallery .item {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .img-thumbnail {
+        width: 150px;
+        /* Adjust the thumbnail size */
+        height: auto;
+        cursor: pointer;
+    }
+
+    /* Add any other custom styles you want */
+</style>
 
 <!-- Optionally, add custom styles -->
 <style>
