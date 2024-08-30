@@ -3,25 +3,25 @@ layout: base
 ---
 
 <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/gallery.css' | relative_url }}">
 
-<div class="gallery-introduction">
+<div class="preface">
     {{ content }}
 </div>
 
-<div id="lightgallery">
-    {% for image in site.gallery %}
-        <a class="item" href="{{ image.image_path | relative_url }}" data-sub-html=".caption">
-            <img src="{{ image.image_path | relative_url }}" class="img-thumbnail" />
-            <!-- Caption content here -->
-            <div class="caption">
-                <h4>{{ image.title }}</h4>
-                <p>{{ image.date_taken }}</p>
-            </div>
-        </a>
-    {% endfor %}
+<div id="gallery-container">
+    <div id="lightgallery">
+        {% for image in site.gallery %}
+            <a class="item {{ image.shape }}" href="{{ image.image_path | relative_url }}" data-sub-html=".caption">
+                <img src="{{ image.image_path | relative_url }}" class="img-thumbnail" />
+                <div class="caption">
+                    <h4>{{ image.title }}</h4>
+                    <p>{{ image.date_taken }}</p>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
 </div>
-
-
 
 
 
@@ -46,47 +46,3 @@ layout: base
         });
     });
 </script>
-
-<!-- Optionally, add custom styles -->
-<style>
-    .gallery-introduction {
-        margin-bottom: 20px;
-        /* Adjust spacing as needed */
-    }
-
-    #lightgallery .item {
-        display: inline-block;
-        margin: 5px;
-    }
-
-    .img-thumbnail {
-        width: 150px;
-        /* Adjust the thumbnail size */
-        height: auto;
-        cursor: pointer;
-    }
-
-    /* Add any other custom styles you want */
-</style>
-
-<!-- Optionally, add custom styles -->
-<style>
-    .gallery-introduction {
-        margin-bottom: 20px;
-        /* Adjust spacing as needed */
-    }
-
-    #lightgallery .item {
-        display: inline-block;
-        margin: 5px;
-    }
-
-    .img-thumbnail {
-        width: 150px;
-        /* Adjust the thumbnail size */
-        height: auto;
-        cursor: pointer;
-    }
-
-    /* Add any other custom styles you want */
-</style>

@@ -4,5 +4,4 @@ title: Gallery
 permalink: /gallery/
 ---
 
-(Here's an introduction to the pictures, before the gallery starts.)
-
+Here's a gallery. More text should appear soon...
