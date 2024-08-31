@@ -12,25 +12,16 @@ layout: base
 <div id="gallery-container">
     <div id="lightgallery">
         {% for image in site.gallery %}
-            <a class="item {{ image.shape }}" href="{{ image.image_path | relative_url }}" data-sub-html=".caption">
+            <a class="item" href="{{ image.image_path | relative_url }}" data-sub-html=".caption">
                 <img src="{{ image.image_path | relative_url }}" class="img-thumbnail" />
                 <div class="caption">
-                    <h4>{{ image.title }}</h4>
-                    <p>{{ image.date_taken }}</p>
+                    <h6 id="img-title">{{ image.title }}</h6>
+                    <p id="img-timestamp">{{ image.date_taken }}</p>
                 </div>
             </a>
         {% endfor %}
     </div>
 </div>
-
-
-
-<script>
-    lightGallery(document.getElementById('lightgallery'), {
-        subHtmlSelectorRelative: true
-    });
-</script>
-
 
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js"></script>
 
@@ -42,7 +33,7 @@ layout: base
             download: false,
             appendSubHtmlTo: '.lg-item',
             subHtmlSelectorRelative: true,
-            getCaptionFromTitleOrAlt: false,
+            getCaptionFromTitleOrAlt: true,
         });
     });
 </script>
