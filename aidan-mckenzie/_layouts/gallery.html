@@ -3,20 +3,24 @@ layout: base
 ---
 
 <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/gallery.css' | relative_url }}">
 
-<div class="gallery-introduction">
+<div class="preface">
     {{ content }}
 </div>
 
-<div id="lightgallery">
-    {% assign images = site.static_files %}
-    {% for image in images %}
-    {% if image.path contains '/assets/imgs/gallery/' %}
-    <a class="item" href="{{ image.path | relative_url }}" data-lg-size="1600-2400">
-        <img src="{{ image.path | relative_url }}" class="img-thumbnail" />
-    </a>
-    {% endif %}
-    {% endfor %}
+<div id="gallery-container">
+    <div id="lightgallery">
+        {% for image in site.gallery %}
+            <a class="item" href="{{ image.image_path | relative_url }}" data-sub-html=".caption">
+                <img src="{{ image.image_path | relative_url }}" class="img-thumbnail" />
+                <div class="caption">
+                    <h6 id="img-title">{{ image.title }}</h6>
+                    <p id="img-timestamp">{{ image.date_taken }}</p>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js"></script>
@@ -26,29 +30,10 @@ layout: base
         lightGallery(document.getElementById('lightgallery'), {
             thumbnail: true,
             selector: '.item',
-            download: false
+            download: false,
+            appendSubHtmlTo: '.lg-item',
+            subHtmlSelectorRelative: true,
+            getCaptionFromTitleOrAlt: true,
         });
     });
 </script>
-
-<!-- Optionally, add custom styles -->
-<style>
-    .gallery-introduction {
-        margin-bottom: 20px;
-        /* Adjust spacing as needed */
-    }
-
-    #lightgallery .item {
-        display: inline-block;
-        margin: 5px;
-    }
-
-    .img-thumbnail {
-        width: 150px;
-        /* Adjust the thumbnail size */
-        height: auto;
-        cursor: pointer;
-    }
-
-    /* Add any other custom styles you want */
-</style>
