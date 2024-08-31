@@ -32,8 +32,8 @@ plugins:
 sections:
   - name: About
     url: /about
-  - name: DJ Memories
-    url: /dj-memories
+  - name: Gallery
+    url: /gallery
   - name: Music
     url: /music
   - name: Ramblings
@@ -62,6 +62,9 @@ vanta_colors:
   lowlight_color: 0xb1750c
   base_color: 0x000000 # transparent color is handled in JS
 
+collections:
+  gallery:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
