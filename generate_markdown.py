@@ -1,5 +1,6 @@
 import os
 import exifread
+from datetime import datetime
 
 # Path to your images directory
 IMAGES_DIR = 'aidan-mckenzie/assets/imgs/gallery/'
@@ -25,14 +26,15 @@ def extract_exif_data(image_path):
 
     # Extract EXIF data
     title = decode_exif_tag(get_printable(tags.get('Image ImageDescription', 'Untitled')))
-    artist = decode_exif_tag(get_printable(tags.get('Image Artist', 'Unknown')))
-    date_time = decode_exif_tag(get_printable(tags.get('EXIF DateTimeOriginal', 'Unknown')))
-
+    artist = decode_exif_tag(get_printable(tags.get('Image Artist', '')))
+    date_time = str(decode_exif_tag(get_printable(tags.get('EXIF DateTimeOriginal', ''))))
+    date = datetime.strptime(date_time, "%Y:%m:%d %H:%M:%S")
+    friendly_date = date.strftime("%a %d %b %Y")
 
     return {
         'title': title,
         'artist': artist,
-        'date_time': date_time,
+        'date_time': friendly_date,
     }
 
 def create_markdown(image_path, metadata):
