@@ -66,13 +66,20 @@ I didn't learn much about what I'd be doing before arriving, and it wasn't clear
 - The stage seats about 60 people, but every year word travels fast about a hidden stage and there can be queues lasting for hours to try and get one of these magic seats.
 - Our location was secret; no one is permitted to tell others about this and if asked - we'd be encouraged to lie.
 
-On that note, considering it's so hidden I really shouldn't be blogging about this.
+On that note, considering it's so hidden I really shouldn't be blogging about this... Just do an internet search about this.
 
 Anyway - I'd be a generic dogsbody, filling in where needed for maybe a couple hours a day to help build the stage and maybe be pulled in as a bouncer when we open. These two days were spent living live on the slow. Sleeping well, spending the days reading, chatting, chilling, and spending the evenings by the fireside. I did maybe an hour of work in this time; patching holes in a wall. It almost sounds wholesome.
 
-The fireside chats were an experience. It would be a thunder storm of excentric stories and Irish folk songs, including a certain man who I shall call *Irish Buck* jumping with joy at telling his own stories, riddles, and jokes. There was me between it all pointlessly trying to have a normal conversation. I was even once on the hearing end of a haunting redention of the Pied Piper story featuring slavery, child traficking, and opium... And that was at 11am when I was looking for work... I quite enjoyed this life.
+The fireside chats were an experience. It would be a thunder storm of excentric stories and improntu Irish folk songs, including a certain man who I shall call *Irish Buck* jumping with joy at telling his own stories, riddles, and jokes. There was me between it all pointlessly trying to have a normal conversation. I was even once on the hearing end of a haunting redention of the Pied Piper story featuring slavery, child traficking, and opium... And that was at 11am when I was looking for work. I quite enjoyed this life.
 
 ## The Music Arrives: 26th & 27th June
+
+Wednesday is when the gates open and the festival starts. So I made the most out of it and I was floating through music stages, continuing random odd jobs, chilling, more music, more drinks, parties, fireside chilling, music and repeat - in no particular order. We even met Steve Angello's manager and a fairly big name producer in the mix of all this, while taking shade under a recycled plastic turtle. It was so strange seeing our peaceful greenhills and <decor???> now being swarmed with people and parties. 
+
+I saw the following acts
+
+
+I've got a lot of love for <music acts who I saw>. I was keeping to my policy of <blah blah blah staying away from mainstage>.
 
 - The people and the music arrive
 - Some music going on
