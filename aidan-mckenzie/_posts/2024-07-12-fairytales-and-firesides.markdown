@@ -87,6 +87,8 @@ I've got a lot of love for <music acts who I saw>. I was keeping to my policy of
 - Opening ceremony
 - Music, work, chill, music, fireside, music, repeat. In no particular order.
 
+The dance class lol
+
 ## The Hole Opens: 28th - 30th June
 
 I can summarise the hole three very short videos.
