@@ -62,7 +62,7 @@ First things first was an intense amount of faff. We met some of the crew who we
 I didn't learn much about what I'd be doing before arriving, and it wasn't even clear 2 days after arriving. But what I did know was that I was to be part of the *The Underground Piano Bar*:
 
 - This is a well-fabled hidden stage at Glastonbury Music Festival which has been going on for I think 30 years now.
-- The entertainment consists of a mix `(better word for mix)` of music, poetry, theatre, storytelling, and anything Irish. Many acts are booked, but open mic contributions inevitably appear too - even I could be offered!
+- The entertainment consists of a concoction of music, poetry, theatre, storytelling, and anything Irish. Many acts are booked, but open mic contributions inevitably appear too - even I could be offered!
 - The stage itself is hidden in the forest; a big hole in the ground with a make shift stage and seats made from logs, covered by a blacked out wooden ceiling and lit by hanging candles.
 - The stage seats about 60 people, but every year word travels fast about a hidden stage and there can be queues lasting for hours to try and get one of these magic seats.
 - Our location was secret; no one is permitted to tell others about this and if asked - we'd be encouraged to lie.
@@ -71,15 +71,13 @@ On that note, considering it's so hidden I really shouldn't be blogging about th
 
 Anyway - I'd be a generic dogsbody, filling in where needed for maybe a couple hours a day to help build the stage and maybe be pulled in as a bouncer when we open. These two days were spent living live on the slow. Sleeping well, spending the days reading, chatting, chilling, and spending the evenings at the fireside. I did maybe an hour of work in this time; patching holes in a wall. It almost sounds wholesome.
 
-We tried a couple staff nights out blah blah... (drag queen pub quiz).
-
 The fireside chats were an experience. It would be a thundering circus of excentric stories and improntu Irish folk songs, including a certain man who I shall call *Irish Buck* jumping with joy at telling his own tales, riddles, and jokes. There was me between it all pointlessly trying to have a normal conversation. I was even once on the hearing end of a haunting redention of the Pied Piper story featuring slavery, child traficking, and opium... And that was at 11am when I was looking for work. Everyone here is a character. I quite enjoyed this life.
 
 ## The Music Arrives: 26th & 27th June
 
-Wednesday is when the gates open and the festival starts. So I made the most out of it and I was floating through music stages, continuing random odd jobs, chilling, more music, more drinks, bit of raving, fireside chilling, music and repeat - in no particular order. We even met someone who is Steve Angello's mate and runs his label, and an artist who ghost-produces for Timmy Trumpet, Hybrid Minds, Gordon City and more (there's another secret out), while we were taking shade under a recycled plastic turtle. It was so strange seeing our peaceful green hills and colour stages now being swarmed with people and parties.
+Wednesday is when the gates open and the festival starts. So I made the most out of it and I was floating through music stages, continuing random odd jobs, chilling, more music, more drinks, bit of raving, fireside chilling, music and repeat - in no particular order. We even met someone who is Steve Angello's mate and runs his label, and an artist who ghost-produces for Timmy Trumpet, Hybrid Minds, Gordon City and more (there's another secret out), while we were taking shade under a recycled plastic turtle. It was so strange seeing our peaceful green hills and vibrant empty stage spaces now being swarmed with people and parties.
 
-So I'm actually quite against pop and chart music, but to my surprise Glastonbury was quite accomodating of this. Across this Wednesday and Thursday, I saw and have a lot of love for the following acts:
+So I'm actually quite against pop and chart music, but to my surprise Glastonbury was well accomodating to this. Across this Wednesday and Thursday I saw and have a lot of love for the following acts:
 
 - Afriquoi
 - Dance Class
@@ -115,7 +113,6 @@ I can summarise the hole three very short videos.
 </video>
 
 </div>
-
 
 At this point the compost toilets were worryingly full.
 
