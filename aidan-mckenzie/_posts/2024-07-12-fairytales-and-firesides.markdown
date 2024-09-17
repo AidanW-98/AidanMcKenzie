@@ -92,7 +92,7 @@ I'm against pop and chart music, but to my surprise Glastonbury was well accomod
 - A dance class of sorts, possible Salsa
 - And many others too...
 
-The GreenPeace stage was getting firmly established as my favourite. Good music so far, great stage design, a skate rank, and lots of vegan food stalls nearby. Back home the stories around the fire continued, I could even see that these storytellers got a bit nervous at times and had the stories well rehearsed. The forced-links between were of note too - "oh ye alright there lad? Whatcha doing, drinking tea? Tell you what - I was once drinking coffee. Ya know where? Madagascar! {strap in for a super crazy storytime}". I didn't mind at all, as long as I wasn't hungry.
+Back home the stories around the fire continued, I could even see that these storytellers got a bit nervous at times and had the stories well rehearsed. The forced-links between were getting desperate - "oh ye alright there lad? Whatcha doing, drinking tea? Tell you what - I was once drinking coffee. Ya know where? Madagascar! {strap in for a super crazy storytime}". I didn't mind at all, as long as I wasn't hungry.
 
 ## The Hole Opens: 28th - 30th June
 
@@ -101,7 +101,7 @@ This is when things got wobbly.
 - Making the most of my time here, seeing a ridiculous number of acts
 - Wondering around by myself, checking out the chilled out acoustic green stages.
 - A lot people were saving their energy, I then saw why.
-- And at midnight, we opened. I never could have dreamt of what I saw next (fanny flaps etc).
+- And at midnight, we opened. I never could have dreamt of what I saw next (fanny flaps etc). 4am was early??!
 - Fear kicked in with not actually being allowed in
 
 Friday:
@@ -148,7 +148,7 @@ I can summarise the hole three very short videos.
 
 </div>
 
-The fairytale was running thin and reality was kicking in. The campsite was getting fuller and fuller, the compost toilets were worryingly full.
+The fairytale was running thin and reality was kicking in. The campsite was getting fuller and fuller, the compost toilets were worryingly full. I couldn't possibly stomach another warm beer.
 
 ## Slowly Back to Thistle 1st & 2nd July
 
